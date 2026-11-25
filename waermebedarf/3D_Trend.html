@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wärmebedarf, Baujahr und Beheizte Fläche</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.49.2/dist/apexcharts.min.js"></script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="demo-header"><a href="../index.html">← Projektübersicht</a><p>Wärmebedarfsanalyse · Fiktive Beispieldaten; kein Rückschluss auf reale Gebäude. Einheiten in der Demo: kWh bzw. kWh/m² pro Jahr.</p></header>
+<main class="demo-content">
+  <h1>Wärmebedarf im Vergleich zum Baujahr und beheizter Fläche (Erste 50 Beispielgebäude)</h1>
+  <div id="chart" style="max-width: 800px; margin: auto;"></div>
+  <script>
+      // Daten laden und Diagramm erstellen
+      fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        // Extrahiere die ersten 50 Gebäude aus den Daten
+        const points = data.features.filter(f => f.properties.Heated_are > 0).slice(0, 50).map(feature => {
+          const baujahr = feature.properties.Year_of_co;  // Beispielattribut für Baujahr
+          const waermebedarf = feature.properties.Total_Year / feature.properties.Heated_are;  // Wärmebedarf pro Quadratmeter
+          const beheizteFlaeche = feature.properties.Heated_are;  // Beheizte Fläche für Bubble-Größe
+          return {
+            x: baujahr,
+            y: waermebedarf,
+            z: beheizteFlaeche  // Bubble-Größe
+          };
+        });
+
+        // Optionen für das Bubble-Diagramm
+        var options = {
+          series: [{
+            name: "Gebäude-Daten",
+            data: points
+          }],
+          chart: {
+            height: 350,
+            type: 'bubble',
+            zoom: {
+              enabled: true,
+              type: 'xy'
+            }
+          },
+          xaxis: {
+            title: {
+              text: 'Baujahr'
+            },
+            tickAmount: 10,
+            labels: {
+              formatter: function(val) {
+                return parseInt(val);
+              }
+            }
+          },
+          yaxis: {
+            title: {
+              text: 'Wärmebedarf (kWh/m²)'
+            },
+            tickAmount: 7
+          },
+          size: {
+            min: 10,  // Mindestgröße der Blasen
+            max: 100, // Maximale Größe der Blasen
+            offset: 0  // optional, beeinflusst die Berechnung der Blasengröße
+          },
+          tooltip: {
+            x: {
+              title: {
+                formatter: () => "Baujahr"
+              }
+            },
+            y: {
+              title: {
+                formatter: () => "Wärmebedarf"
+              }
+            },
+            z: {
+              title: {
+                formatter: () => "Beheizte Fläche (m²)"
+              }
+            },
+            custom: function({ dataPointIndex, seriesIndex, w }) {
+              var data = w.config.series[seriesIndex].data[dataPointIndex];
+              return `
+                <div style="padding: 10px;">
+                  <strong>Baujahr:</strong> ${data.x}<br>
+                  <strong>Wärmebedarf:</strong> ${data.y} kWh/m²<br>
+                  <strong>Beheizte Fläche:</strong> ${data.z} m²
+                </div>
+              `;
+            }
+          }
+        };
+        
+        // Erstelle das Diagramm und rendere es
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+      })
+      .catch(error => { document.querySelector("#chart").textContent = "Daten konnten nicht geladen werden."; console.error(error); });
+  </script>
+</main>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategorien filtern</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #mapid {
+            width: 100%;
+            height: 65vh;
+        }
+        #controls {
+            width: 100%;
+            min-height: 52px; padding: 10px; flex-wrap: wrap;
+            background: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .75rem;
+        }
+     .poi-marker span {display:grid;place-items:center;width:28px;height:28px;border:2px solid white;border-radius:50%;color:white;font-weight:bold;box-shadow:0 1px 4px #0005;}
+    </style>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="demo-header"><a href="../index.html">← Projektübersicht</a><p>Points of Interest in Stuttgart · Auswahl aus der ursprünglichen Übung; Stand nicht aktuell geprüft.</p></header>
+<main class="demo-content">
+    <div id="controls">
+        <label><input type="checkbox" data-category="Museum" checked> Museen</label>
+        <label><input type="checkbox" data-category="Fitnessstudio" checked> Fitnessstudios</label>
+        <label><input type="checkbox" data-category="Hochschulsport" checked> Hochschulsport</label>
+        <label><input type="checkbox" data-category="Bibliothek" checked> Bibliotheken</label>
+        <label><input type="checkbox" data-category="Einkaufszentrum" checked> Einkaufszentren</label>
+        <label><input type="checkbox" data-category="Markt" checked> Märkte</label>
+        <label><input type="checkbox" data-category="Bahnhof" checked> Bahnhöfe</label>
+        <label><input type="checkbox" data-category="Kino" checked> Kinos</label>
+        <label><input type="checkbox" data-category="Supermarkt" checked> Supermärkte</label>
+        <label><input type="checkbox" data-category="Mensa" checked> Mensen</label>
+        <label><input type="checkbox" data-category="Restaurant" checked> Restaurants</label>
+        <label><input type="checkbox" data-category="Hochschule" checked> Hochschulen</label>
+    </div>
+    <div id="mapid"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="pois.js"></script>
+</main>
+</body>
+</html>

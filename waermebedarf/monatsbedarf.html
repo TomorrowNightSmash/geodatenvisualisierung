@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wärmebedarf Visualisierung</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.49.2/dist/apexcharts.min.js"></script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="demo-header"><a href="../index.html">← Projektübersicht</a><p>Wärmebedarfsanalyse · Fiktive Beispieldaten; kein Rückschluss auf reale Gebäude. Einheiten in der Demo: kWh bzw. kWh/m² pro Jahr.</p></header>
+<main class="demo-content">
+    <h1>Wärmebedarf pro Monat (Beispielgebäude)</h1>
+    <div id="chart" style="max-width: 800px; margin: auto;"></div>
+    <script>
+        fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+        const energyData = [
+            data.features[0].properties.January_He,
+            data.features[0].properties.February_H,
+            data.features[0].properties.March_Heat,
+            data.features[0].properties.April_Heat,
+            data.features[0].properties.May_Heatin,
+            data.features[0].properties.June_Heati,
+            data.features[0].properties.July_Heati,
+            data.features[0].properties.August_Hea,
+            data.features[0].properties.September_,
+            data.features[0].properties.October_He,
+            data.features[0].properties.November_H,
+            data.features[0].properties.December_H
+        ];
+    
+    var options = {
+        chart: {
+          type: 'line',
+          width: '100%'
+        },
+        series: [{
+          name: 'Wärmebedarf',
+          data: energyData
+        }],
+        xaxis: {
+          categories: ['Januar', 'Februar', 'März', 'April', 
+                    'Mai', 'Juni', 'Juli', 'August', 
+                    'September','Oktober','November','Dezember']
+        },
+        yaxis: {
+            title:{
+                text: 'kWh'
+            }
+        }
+      };
+      
+      var chart = new ApexCharts(document.querySelector("#chart"), options);
+      
+      chart.render();
+    });
+      </script>
+</main>
+</body>
+</html>

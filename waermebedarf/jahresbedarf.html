@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wärmebedarf Visualisierung</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.49.2/dist/apexcharts.min.js"></script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="demo-header"><a href="../index.html">← Projektübersicht</a><p>Wärmebedarfsanalyse · Fiktive Beispieldaten; kein Rückschluss auf reale Gebäude. Einheiten in der Demo: kWh bzw. kWh/m² pro Jahr.</p></header>
+<main class="demo-content">
+    <h1>Jährlicher Wärmebedarf von 10 Gebäuden</h1>
+    <div id="chart" style="max-width: 800px; margin: auto;"></div>
+    <script>
+        // JSON-Daten laden
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Erstes Array von 10 Gebäuden
+                const gebaeude = data.features.slice(0, 10);
+
+                // Wärmebedarfs- und Kategorie-Daten extrahieren
+                const energyData = gebaeude.map(item => item.properties.Total_Year);
+                const gebaeude_id = gebaeude.map(item => item.properties.gml_id);
+
+                // ApexCharts Optionen definieren
+                var options = {
+                    chart: {
+                        type: 'bar',
+                        height: 400
+                    },
+                    series: [{
+                        name: 'Jährlicher Wärmebedarf',
+                        data: energyData
+                    }],
+                    xaxis: {
+                        categories: gebaeude_id,
+                        title: {
+                            text: 'Gebäude_ID'
+                        }
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'kWh'
+                        }
+                    }
+                };
+
+                // Diagramm erstellen und rendern
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            })
+            .catch(error => { document.querySelector("#chart").textContent = "Daten konnten nicht geladen werden."; console.error(error); });
+    </script>
+</main>
+</body>
+</html>

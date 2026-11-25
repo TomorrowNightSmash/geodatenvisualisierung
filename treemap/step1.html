@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>TreeMap mit Zwischenschritten</title>
+<style>
+  .rectangle {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="demo-header"><a href="../index.html">← Projektübersicht</a><p>Treemap · Beispiel für eine flächenproportionale Darstellung von Dateigrößen.</p></header>
+<main class="demo-content">
+
+<div id="container" style="width:600px; height:400px; position:relative;"></div>
+
+<script>
+// JavaScript für die TreeMap-Erstellung mit Zwischenschritten
+const container = document.getElementById('container');
+
+// Funktion zur Erstellung eines Rechtecks
+function createRectangle(x, y, width, height, color, label) {
+  const rect = document.createElement('div');
+  rect.classList.add('rectangle');
+  rect.style.left = `${x}px`;
+  rect.style.top = `${y}px`;
+  rect.style.width = `${width}px`;
+  rect.style.height = `${height}px`;
+  rect.style.backgroundColor = color;
+  rect.innerText = label;
+  container.appendChild(rect);
+}
+
+// Ordner und Dateien mit klaren Farben
+const ordner1 = [
+  { name: 'DOC', size: 90, color: '#4f81bd' },
+  { name: 'PNG', size: 60, color: '#6fa8dc' },
+  { name: 'PDF', size: 30, color: '#a4c2f4' }
+];
+const ordner2 = [
+  { name: 'DAT 1', size: 40, color: '#93c47d' },
+  { name: 'DAT 2', size: 20, color: '#b6d7a8' }
+];
+
+// Funktion zur Berechnung und Platzierung der Rechtecke mit Verzögerung
+function layoutTreeMap(data, x, y, width, height, totalSize, delay) {
+  let offsetY = y;
+  let step = 1;
+
+  // Zwischenschritte hinzufügen
+  data.forEach((item, index) => {
+    setTimeout(() => {
+      const rectHeight = (item.size / totalSize) * height;
+      const label = `${item.name} (${item.size} KB)`;
+      createRectangle(x, offsetY, width, rectHeight, item.color, label);
+      offsetY += rectHeight;
+      console.log(`Step ${step++}: ${label} - Fläche: ${width} x ${rectHeight}`);
+    }, delay * index);
+  });
+}
+
+// Schrittweise Visualisierung der TreeMap
+// Schritt 1: Ordner 1: 75 % der Fläche
+setTimeout(() => {
+  console.log("Step 1: Ordner 1 wird dargestellt");
+  layoutTreeMap(ordner1, 0, 0, 450, 400, 180, 1000);
+}, 1000);
+
+// Schritt 2: Ordner 2: 25 % der Fläche
+setTimeout(() => {
+  console.log("Step 2: Ordner 2 wird dargestellt");
+  layoutTreeMap(ordner2, 450, 0, 150, 400, 60, 1000);
+}, 5000);
+
+</script>
+
+</main>
+</body>
+</html>

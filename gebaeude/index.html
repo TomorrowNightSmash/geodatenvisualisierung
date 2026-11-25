@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interaktive Karte und Diagramm</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.49.2/dist/apexcharts.min.js"></script>
+    <style>
+        .map-chart {display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+        #mapid, #chart {min-width:0;min-height:450px;}
+        @media(max-width:800px){.map-chart{grid-template-columns:1fr;}#mapid{min-height:360px;}}
+    </style>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="demo-header"><a href="../index.html">← Projektübersicht</a><p>Gebäudealter · Fiktive Gebäudegrundrisse und Baujahre; keine realen Gebäude.</p></header>
+<main class="demo-content">
+    <div class="map-chart"><div id="mapid"></div><div id="chart"></div></div>
+    <script src="app.js"></script>
+</main>
+</body>
+</html>

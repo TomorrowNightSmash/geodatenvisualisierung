@@ -1,0 +1,383 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 1",
+        "ot_beruf_f": 600,
+        "ot_beruf_h": 172,
+        "ot_beruf_k": 372,
+        "ot_beruf_l": 278,
+        "ot_beruf_p": 139,
+        "ot_schul_h": 306,
+        "ot_schul_1": 97,
+        "ot_schul_k": 400,
+        "ot_schul_m": 322
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.16,
+              48.767
+            ],
+            [
+              9.17,
+              48.767
+            ],
+            [
+              9.17,
+              48.776
+            ],
+            [
+              9.16,
+              48.776
+            ],
+            [
+              9.16,
+              48.767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 2",
+        "ot_beruf_f": 325,
+        "ot_beruf_h": 600,
+        "ot_beruf_k": 154,
+        "ot_beruf_l": 272,
+        "ot_beruf_p": 238,
+        "ot_schul_h": 127,
+        "ot_schul_1": 78,
+        "ot_schul_k": 79,
+        "ot_schul_m": 367
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.172,
+              48.767
+            ],
+            [
+              9.182,
+              48.767
+            ],
+            [
+              9.182,
+              48.776
+            ],
+            [
+              9.172,
+              48.776
+            ],
+            [
+              9.172,
+              48.767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 3",
+        "ot_beruf_f": 250,
+        "ot_beruf_h": 211,
+        "ot_beruf_k": 600,
+        "ot_beruf_l": 240,
+        "ot_beruf_p": 269,
+        "ot_schul_h": 57,
+        "ot_schul_1": 374,
+        "ot_schul_k": 364,
+        "ot_schul_m": 360
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.184,
+              48.767
+            ],
+            [
+              9.193999999999999,
+              48.767
+            ],
+            [
+              9.193999999999999,
+              48.776
+            ],
+            [
+              9.184,
+              48.776
+            ],
+            [
+              9.184,
+              48.767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 4",
+        "ot_beruf_f": 80,
+        "ot_beruf_h": 61,
+        "ot_beruf_k": 236,
+        "ot_beruf_l": 600,
+        "ot_beruf_p": 85,
+        "ot_schul_h": 157,
+        "ot_schul_1": 128,
+        "ot_schul_k": 127,
+        "ot_schul_m": 304
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.16,
+              48.778000000000006
+            ],
+            [
+              9.17,
+              48.778000000000006
+            ],
+            [
+              9.17,
+              48.787000000000006
+            ],
+            [
+              9.16,
+              48.787000000000006
+            ],
+            [
+              9.16,
+              48.778000000000006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 5",
+        "ot_beruf_f": 259,
+        "ot_beruf_h": 101,
+        "ot_beruf_k": 246,
+        "ot_beruf_l": 123,
+        "ot_beruf_p": 600,
+        "ot_schul_h": 266,
+        "ot_schul_1": 157,
+        "ot_schul_k": 68,
+        "ot_schul_m": 256
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.172,
+              48.778000000000006
+            ],
+            [
+              9.182,
+              48.778000000000006
+            ],
+            [
+              9.182,
+              48.787000000000006
+            ],
+            [
+              9.172,
+              48.787000000000006
+            ],
+            [
+              9.172,
+              48.778000000000006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 6",
+        "ot_beruf_f": 311,
+        "ot_beruf_h": 80,
+        "ot_beruf_k": 55,
+        "ot_beruf_l": 363,
+        "ot_beruf_p": 306,
+        "ot_schul_h": 600,
+        "ot_schul_1": 77,
+        "ot_schul_k": 151,
+        "ot_schul_m": 115
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.184,
+              48.778000000000006
+            ],
+            [
+              9.193999999999999,
+              48.778000000000006
+            ],
+            [
+              9.193999999999999,
+              48.787000000000006
+            ],
+            [
+              9.184,
+              48.787000000000006
+            ],
+            [
+              9.184,
+              48.778000000000006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 7",
+        "ot_beruf_f": 238,
+        "ot_beruf_h": 278,
+        "ot_beruf_k": 276,
+        "ot_beruf_l": 139,
+        "ot_beruf_p": 235,
+        "ot_schul_h": 60,
+        "ot_schul_1": 600,
+        "ot_schul_k": 224,
+        "ot_schul_m": 31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.16,
+              48.789
+            ],
+            [
+              9.17,
+              48.789
+            ],
+            [
+              9.17,
+              48.798
+            ],
+            [
+              9.16,
+              48.798
+            ],
+            [
+              9.16,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 8",
+        "ot_beruf_f": 229,
+        "ot_beruf_h": 165,
+        "ot_beruf_k": 262,
+        "ot_beruf_l": 176,
+        "ot_beruf_p": 246,
+        "ot_schul_h": 386,
+        "ot_schul_1": 314,
+        "ot_schul_k": 600,
+        "ot_schul_m": 397
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.172,
+              48.789
+            ],
+            [
+              9.182,
+              48.789
+            ],
+            [
+              9.182,
+              48.798
+            ],
+            [
+              9.172,
+              48.798
+            ],
+            [
+              9.172,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ortsteil": "Beispielgebiet 9",
+        "ot_beruf_f": 279,
+        "ot_beruf_h": 109,
+        "ot_beruf_k": 127,
+        "ot_beruf_l": 181,
+        "ot_beruf_p": 141,
+        "ot_schul_h": 59,
+        "ot_schul_1": 326,
+        "ot_schul_k": 307,
+        "ot_schul_m": 600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.184,
+              48.789
+            ],
+            [
+              9.193999999999999,
+              48.789
+            ],
+            [
+              9.193999999999999,
+              48.798
+            ],
+            [
+              9.184,
+              48.798
+            ],
+            [
+              9.184,
+              48.789
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

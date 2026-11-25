@@ -1,0 +1,2886 @@
+{
+  "type": "FeatureCollection",
+  "name": "synthetic-building-demo",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-001",
+        "Year_of_co": 1896,
+        "Heated_are": 147,
+        "Total_Year": 30678,
+        "January_He": 5829,
+        "February_H": 4602,
+        "March_Heat": 3681,
+        "April_Heat": 2147,
+        "May_Heatin": 614,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 307,
+        "October_He": 2454,
+        "November_H": 4908,
+        "December_H": 6136
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.202,
+              48.789
+            ],
+            [
+              9.20227,
+              48.789
+            ],
+            [
+              9.20227,
+              48.78926
+            ],
+            [
+              9.202,
+              48.78926
+            ],
+            [
+              9.202,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-002",
+        "Year_of_co": 1947,
+        "Heated_are": 215,
+        "Total_Year": 26504,
+        "January_He": 5036,
+        "February_H": 3976,
+        "March_Heat": 3180,
+        "April_Heat": 1855,
+        "May_Heatin": 530,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 265,
+        "October_He": 2120,
+        "November_H": 4241,
+        "December_H": 5301
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20247,
+              48.789
+            ],
+            [
+              9.20274,
+              48.789
+            ],
+            [
+              9.20274,
+              48.78926
+            ],
+            [
+              9.20247,
+              48.78926
+            ],
+            [
+              9.20247,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-003",
+        "Year_of_co": 1912,
+        "Heated_are": 142,
+        "Total_Year": 26023,
+        "January_He": 4944,
+        "February_H": 3903,
+        "March_Heat": 3123,
+        "April_Heat": 1822,
+        "May_Heatin": 520,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 260,
+        "October_He": 2082,
+        "November_H": 4164,
+        "December_H": 5205
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20294,
+              48.789
+            ],
+            [
+              9.20321,
+              48.789
+            ],
+            [
+              9.20321,
+              48.78926
+            ],
+            [
+              9.20294,
+              48.78926
+            ],
+            [
+              9.20294,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-004",
+        "Year_of_co": 1897,
+        "Heated_are": 106,
+        "Total_Year": 19517,
+        "January_He": 3708,
+        "February_H": 2928,
+        "March_Heat": 2342,
+        "April_Heat": 1366,
+        "May_Heatin": 390,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 195,
+        "October_He": 1561,
+        "November_H": 3123,
+        "December_H": 3903
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20341,
+              48.789
+            ],
+            [
+              9.20368,
+              48.789
+            ],
+            [
+              9.20368,
+              48.78926
+            ],
+            [
+              9.20341,
+              48.78926
+            ],
+            [
+              9.20341,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-005",
+        "Year_of_co": 2019,
+        "Heated_are": 209,
+        "Total_Year": 10434,
+        "January_He": 1982,
+        "February_H": 1565,
+        "March_Heat": 1252,
+        "April_Heat": 730,
+        "May_Heatin": 209,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 104,
+        "October_He": 835,
+        "November_H": 1669,
+        "December_H": 2087
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20388,
+              48.789
+            ],
+            [
+              9.20415,
+              48.789
+            ],
+            [
+              9.20415,
+              48.78926
+            ],
+            [
+              9.20388,
+              48.78926
+            ],
+            [
+              9.20388,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-006",
+        "Year_of_co": 1940,
+        "Heated_are": 377,
+        "Total_Year": 57597,
+        "January_He": 10943,
+        "February_H": 8640,
+        "March_Heat": 6912,
+        "April_Heat": 4032,
+        "May_Heatin": 1152,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 576,
+        "October_He": 4608,
+        "November_H": 9216,
+        "December_H": 11519
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20435,
+              48.789
+            ],
+            [
+              9.20462,
+              48.789
+            ],
+            [
+              9.20462,
+              48.78926
+            ],
+            [
+              9.20435,
+              48.78926
+            ],
+            [
+              9.20435,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-007",
+        "Year_of_co": 1997,
+        "Heated_are": 369,
+        "Total_Year": 23500,
+        "January_He": 4465,
+        "February_H": 3525,
+        "March_Heat": 2820,
+        "April_Heat": 1645,
+        "May_Heatin": 470,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 235,
+        "October_He": 1880,
+        "November_H": 3760,
+        "December_H": 4700
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20482,
+              48.789
+            ],
+            [
+              9.20509,
+              48.789
+            ],
+            [
+              9.20509,
+              48.78926
+            ],
+            [
+              9.20482,
+              48.78926
+            ],
+            [
+              9.20482,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-008",
+        "Year_of_co": 1891,
+        "Heated_are": 232,
+        "Total_Year": 50012,
+        "January_He": 9502,
+        "February_H": 7502,
+        "March_Heat": 6001,
+        "April_Heat": 3501,
+        "May_Heatin": 1000,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 500,
+        "October_He": 4001,
+        "November_H": 8002,
+        "December_H": 10002
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20529,
+              48.789
+            ],
+            [
+              9.20556,
+              48.789
+            ],
+            [
+              9.20556,
+              48.78926
+            ],
+            [
+              9.20529,
+              48.78926
+            ],
+            [
+              9.20529,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-009",
+        "Year_of_co": 1998,
+        "Heated_are": 171,
+        "Total_Year": 11414,
+        "January_He": 2169,
+        "February_H": 1712,
+        "March_Heat": 1370,
+        "April_Heat": 799,
+        "May_Heatin": 228,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 114,
+        "October_He": 913,
+        "November_H": 1826,
+        "December_H": 2283
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20576,
+              48.789
+            ],
+            [
+              9.20603,
+              48.789
+            ],
+            [
+              9.20603,
+              48.78926
+            ],
+            [
+              9.20576,
+              48.78926
+            ],
+            [
+              9.20576,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-010",
+        "Year_of_co": 1945,
+        "Heated_are": 169,
+        "Total_Year": 26230,
+        "January_He": 4984,
+        "February_H": 3934,
+        "March_Heat": 3148,
+        "April_Heat": 1836,
+        "May_Heatin": 525,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 262,
+        "October_He": 2098,
+        "November_H": 4197,
+        "December_H": 5246
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20623,
+              48.789
+            ],
+            [
+              9.2065,
+              48.789
+            ],
+            [
+              9.2065,
+              48.78926
+            ],
+            [
+              9.20623,
+              48.78926
+            ],
+            [
+              9.20623,
+              48.789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-011",
+        "Year_of_co": 1916,
+        "Heated_are": 262,
+        "Total_Year": 42009,
+        "January_He": 7982,
+        "February_H": 6301,
+        "March_Heat": 5041,
+        "April_Heat": 2941,
+        "May_Heatin": 840,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 420,
+        "October_He": 3361,
+        "November_H": 6721,
+        "December_H": 8402
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.202,
+              48.78949
+            ],
+            [
+              9.20227,
+              48.78949
+            ],
+            [
+              9.20227,
+              48.78975
+            ],
+            [
+              9.202,
+              48.78975
+            ],
+            [
+              9.202,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-012",
+        "Year_of_co": 1981,
+        "Heated_are": 139,
+        "Total_Year": 14770,
+        "January_He": 2806,
+        "February_H": 2216,
+        "March_Heat": 1772,
+        "April_Heat": 1034,
+        "May_Heatin": 295,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 148,
+        "October_He": 1182,
+        "November_H": 2363,
+        "December_H": 2954
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20247,
+              48.78949
+            ],
+            [
+              9.20274,
+              48.78949
+            ],
+            [
+              9.20274,
+              48.78975
+            ],
+            [
+              9.20247,
+              48.78975
+            ],
+            [
+              9.20247,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-013",
+        "Year_of_co": 1901,
+        "Heated_are": 225,
+        "Total_Year": 45455,
+        "January_He": 8636,
+        "February_H": 6818,
+        "March_Heat": 5455,
+        "April_Heat": 3182,
+        "May_Heatin": 909,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 455,
+        "October_He": 3636,
+        "November_H": 7273,
+        "December_H": 9091
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20294,
+              48.78949
+            ],
+            [
+              9.20321,
+              48.78949
+            ],
+            [
+              9.20321,
+              48.78975
+            ],
+            [
+              9.20294,
+              48.78975
+            ],
+            [
+              9.20294,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-014",
+        "Year_of_co": 1921,
+        "Heated_are": 364,
+        "Total_Year": 67625,
+        "January_He": 12849,
+        "February_H": 10144,
+        "March_Heat": 8115,
+        "April_Heat": 4734,
+        "May_Heatin": 1352,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 676,
+        "October_He": 5410,
+        "November_H": 10820,
+        "December_H": 13525
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20341,
+              48.78949
+            ],
+            [
+              9.20368,
+              48.78949
+            ],
+            [
+              9.20368,
+              48.78975
+            ],
+            [
+              9.20341,
+              48.78975
+            ],
+            [
+              9.20341,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-015",
+        "Year_of_co": 1910,
+        "Heated_are": 283,
+        "Total_Year": 52178,
+        "January_He": 9914,
+        "February_H": 7827,
+        "March_Heat": 6261,
+        "April_Heat": 3652,
+        "May_Heatin": 1044,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 522,
+        "October_He": 4174,
+        "November_H": 8348,
+        "December_H": 10436
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20388,
+              48.78949
+            ],
+            [
+              9.20415,
+              48.78949
+            ],
+            [
+              9.20415,
+              48.78975
+            ],
+            [
+              9.20388,
+              48.78975
+            ],
+            [
+              9.20388,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-016",
+        "Year_of_co": 1939,
+        "Heated_are": 275,
+        "Total_Year": 42244,
+        "January_He": 8026,
+        "February_H": 6337,
+        "March_Heat": 5069,
+        "April_Heat": 2957,
+        "May_Heatin": 845,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 422,
+        "October_He": 3380,
+        "November_H": 6759,
+        "December_H": 8449
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20435,
+              48.78949
+            ],
+            [
+              9.20462,
+              48.78949
+            ],
+            [
+              9.20462,
+              48.78975
+            ],
+            [
+              9.20435,
+              48.78975
+            ],
+            [
+              9.20435,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-017",
+        "Year_of_co": 1948,
+        "Heated_are": 113,
+        "Total_Year": 16366,
+        "January_He": 3110,
+        "February_H": 2455,
+        "March_Heat": 1964,
+        "April_Heat": 1146,
+        "May_Heatin": 327,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 164,
+        "October_He": 1309,
+        "November_H": 2619,
+        "December_H": 3273
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20482,
+              48.78949
+            ],
+            [
+              9.20509,
+              48.78949
+            ],
+            [
+              9.20509,
+              48.78975
+            ],
+            [
+              9.20482,
+              48.78975
+            ],
+            [
+              9.20482,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-018",
+        "Year_of_co": 1949,
+        "Heated_are": 130,
+        "Total_Year": 19103,
+        "January_He": 3630,
+        "February_H": 2865,
+        "March_Heat": 2292,
+        "April_Heat": 1337,
+        "May_Heatin": 382,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 191,
+        "October_He": 1528,
+        "November_H": 3056,
+        "December_H": 3821
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20529,
+              48.78949
+            ],
+            [
+              9.20556,
+              48.78949
+            ],
+            [
+              9.20556,
+              48.78975
+            ],
+            [
+              9.20529,
+              48.78975
+            ],
+            [
+              9.20529,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-019",
+        "Year_of_co": 1961,
+        "Heated_are": 284,
+        "Total_Year": 33249,
+        "January_He": 6317,
+        "February_H": 4987,
+        "March_Heat": 3990,
+        "April_Heat": 2327,
+        "May_Heatin": 665,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 332,
+        "October_He": 2660,
+        "November_H": 5320,
+        "December_H": 6650
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20576,
+              48.78949
+            ],
+            [
+              9.20603,
+              48.78949
+            ],
+            [
+              9.20603,
+              48.78975
+            ],
+            [
+              9.20576,
+              48.78975
+            ],
+            [
+              9.20576,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-020",
+        "Year_of_co": 1931,
+        "Heated_are": 276,
+        "Total_Year": 41835,
+        "January_He": 7949,
+        "February_H": 6275,
+        "March_Heat": 5020,
+        "April_Heat": 2928,
+        "May_Heatin": 837,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 418,
+        "October_He": 3347,
+        "November_H": 6694,
+        "December_H": 8367
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20623,
+              48.78949
+            ],
+            [
+              9.2065,
+              48.78949
+            ],
+            [
+              9.2065,
+              48.78975
+            ],
+            [
+              9.20623,
+              48.78975
+            ],
+            [
+              9.20623,
+              48.78949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-021",
+        "Year_of_co": 1958,
+        "Heated_are": 197,
+        "Total_Year": 25564,
+        "January_He": 4857,
+        "February_H": 3835,
+        "March_Heat": 3068,
+        "April_Heat": 1789,
+        "May_Heatin": 511,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 256,
+        "October_He": 2045,
+        "November_H": 4090,
+        "December_H": 5113
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.202,
+              48.78998
+            ],
+            [
+              9.20227,
+              48.78998
+            ],
+            [
+              9.20227,
+              48.79024
+            ],
+            [
+              9.202,
+              48.79024
+            ],
+            [
+              9.202,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-022",
+        "Year_of_co": 1933,
+        "Heated_are": 126,
+        "Total_Year": 19527,
+        "January_He": 3710,
+        "February_H": 2929,
+        "March_Heat": 2343,
+        "April_Heat": 1367,
+        "May_Heatin": 391,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 195,
+        "October_He": 1562,
+        "November_H": 3124,
+        "December_H": 3905
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20247,
+              48.78998
+            ],
+            [
+              9.20274,
+              48.78998
+            ],
+            [
+              9.20274,
+              48.79024
+            ],
+            [
+              9.20247,
+              48.79024
+            ],
+            [
+              9.20247,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-023",
+        "Year_of_co": 1931,
+        "Heated_are": 215,
+        "Total_Year": 33302,
+        "January_He": 6327,
+        "February_H": 4995,
+        "March_Heat": 3996,
+        "April_Heat": 2331,
+        "May_Heatin": 666,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 333,
+        "October_He": 2664,
+        "November_H": 5328,
+        "December_H": 6660
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20294,
+              48.78998
+            ],
+            [
+              9.20321,
+              48.78998
+            ],
+            [
+              9.20321,
+              48.79024
+            ],
+            [
+              9.20294,
+              48.79024
+            ],
+            [
+              9.20294,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-024",
+        "Year_of_co": 1946,
+        "Heated_are": 228,
+        "Total_Year": 32865,
+        "January_He": 6244,
+        "February_H": 4930,
+        "March_Heat": 3944,
+        "April_Heat": 2301,
+        "May_Heatin": 657,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 329,
+        "October_He": 2629,
+        "November_H": 5258,
+        "December_H": 6573
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20341,
+              48.78998
+            ],
+            [
+              9.20368,
+              48.78998
+            ],
+            [
+              9.20368,
+              48.79024
+            ],
+            [
+              9.20341,
+              48.79024
+            ],
+            [
+              9.20341,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-025",
+        "Year_of_co": 1948,
+        "Heated_are": 118,
+        "Total_Year": 17297,
+        "January_He": 3286,
+        "February_H": 2595,
+        "March_Heat": 2076,
+        "April_Heat": 1211,
+        "May_Heatin": 346,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 173,
+        "October_He": 1384,
+        "November_H": 2768,
+        "December_H": 3459
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20388,
+              48.78998
+            ],
+            [
+              9.20415,
+              48.78998
+            ],
+            [
+              9.20415,
+              48.79024
+            ],
+            [
+              9.20388,
+              48.79024
+            ],
+            [
+              9.20388,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-026",
+        "Year_of_co": 1992,
+        "Heated_are": 251,
+        "Total_Year": 17981,
+        "January_He": 3416,
+        "February_H": 2697,
+        "March_Heat": 2158,
+        "April_Heat": 1259,
+        "May_Heatin": 360,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 180,
+        "October_He": 1438,
+        "November_H": 2877,
+        "December_H": 3596
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20435,
+              48.78998
+            ],
+            [
+              9.20462,
+              48.78998
+            ],
+            [
+              9.20462,
+              48.79024
+            ],
+            [
+              9.20435,
+              48.79024
+            ],
+            [
+              9.20435,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-027",
+        "Year_of_co": 1970,
+        "Heated_are": 198,
+        "Total_Year": 19237,
+        "January_He": 3655,
+        "February_H": 2886,
+        "March_Heat": 2308,
+        "April_Heat": 1347,
+        "May_Heatin": 385,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 192,
+        "October_He": 1539,
+        "November_H": 3078,
+        "December_H": 3847
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20482,
+              48.78998
+            ],
+            [
+              9.20509,
+              48.78998
+            ],
+            [
+              9.20509,
+              48.79024
+            ],
+            [
+              9.20482,
+              48.79024
+            ],
+            [
+              9.20482,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-028",
+        "Year_of_co": 1991,
+        "Heated_are": 345,
+        "Total_Year": 32809,
+        "January_He": 6234,
+        "February_H": 4921,
+        "March_Heat": 3937,
+        "April_Heat": 2297,
+        "May_Heatin": 656,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 328,
+        "October_He": 2625,
+        "November_H": 5249,
+        "December_H": 6562
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20529,
+              48.78998
+            ],
+            [
+              9.20556,
+              48.78998
+            ],
+            [
+              9.20556,
+              48.79024
+            ],
+            [
+              9.20529,
+              48.79024
+            ],
+            [
+              9.20529,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-029",
+        "Year_of_co": 1926,
+        "Heated_are": 324,
+        "Total_Year": 49908,
+        "January_He": 9483,
+        "February_H": 7486,
+        "March_Heat": 5989,
+        "April_Heat": 3494,
+        "May_Heatin": 998,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 499,
+        "October_He": 3993,
+        "November_H": 7985,
+        "December_H": 9982
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20576,
+              48.78998
+            ],
+            [
+              9.20603,
+              48.78998
+            ],
+            [
+              9.20603,
+              48.79024
+            ],
+            [
+              9.20576,
+              48.79024
+            ],
+            [
+              9.20576,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-030",
+        "Year_of_co": 1957,
+        "Heated_are": 216,
+        "Total_Year": 28651,
+        "January_He": 5444,
+        "February_H": 4298,
+        "March_Heat": 3438,
+        "April_Heat": 2006,
+        "May_Heatin": 573,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 287,
+        "October_He": 2292,
+        "November_H": 4584,
+        "December_H": 5730
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20623,
+              48.78998
+            ],
+            [
+              9.2065,
+              48.78998
+            ],
+            [
+              9.2065,
+              48.79024
+            ],
+            [
+              9.20623,
+              48.79024
+            ],
+            [
+              9.20623,
+              48.78998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-031",
+        "Year_of_co": 1992,
+        "Heated_are": 309,
+        "Total_Year": 23185,
+        "January_He": 4405,
+        "February_H": 3478,
+        "March_Heat": 2782,
+        "April_Heat": 1623,
+        "May_Heatin": 464,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 232,
+        "October_He": 1855,
+        "November_H": 3710,
+        "December_H": 4637
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.202,
+              48.79047
+            ],
+            [
+              9.20227,
+              48.79047
+            ],
+            [
+              9.20227,
+              48.790729999999996
+            ],
+            [
+              9.202,
+              48.790729999999996
+            ],
+            [
+              9.202,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-032",
+        "Year_of_co": 2020,
+        "Heated_are": 160,
+        "Total_Year": 7163,
+        "January_He": 1361,
+        "February_H": 1074,
+        "March_Heat": 860,
+        "April_Heat": 501,
+        "May_Heatin": 143,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 72,
+        "October_He": 573,
+        "November_H": 1146,
+        "December_H": 1433
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20247,
+              48.79047
+            ],
+            [
+              9.20274,
+              48.79047
+            ],
+            [
+              9.20274,
+              48.790729999999996
+            ],
+            [
+              9.20247,
+              48.790729999999996
+            ],
+            [
+              9.20247,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-033",
+        "Year_of_co": 1918,
+        "Heated_are": 114,
+        "Total_Year": 18240,
+        "January_He": 3466,
+        "February_H": 2736,
+        "March_Heat": 2189,
+        "April_Heat": 1277,
+        "May_Heatin": 365,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 182,
+        "October_He": 1459,
+        "November_H": 2918,
+        "December_H": 3648
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20294,
+              48.79047
+            ],
+            [
+              9.20321,
+              48.79047
+            ],
+            [
+              9.20321,
+              48.790729999999996
+            ],
+            [
+              9.20294,
+              48.790729999999996
+            ],
+            [
+              9.20294,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-034",
+        "Year_of_co": 1998,
+        "Heated_are": 171,
+        "Total_Year": 12991,
+        "January_He": 2468,
+        "February_H": 1949,
+        "March_Heat": 1559,
+        "April_Heat": 909,
+        "May_Heatin": 260,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 130,
+        "October_He": 1039,
+        "November_H": 2079,
+        "December_H": 2598
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20341,
+              48.79047
+            ],
+            [
+              9.20368,
+              48.79047
+            ],
+            [
+              9.20368,
+              48.790729999999996
+            ],
+            [
+              9.20341,
+              48.790729999999996
+            ],
+            [
+              9.20341,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-035",
+        "Year_of_co": 1987,
+        "Heated_are": 287,
+        "Total_Year": 25744,
+        "January_He": 4891,
+        "February_H": 3862,
+        "March_Heat": 3089,
+        "April_Heat": 1802,
+        "May_Heatin": 515,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 257,
+        "October_He": 2060,
+        "November_H": 4119,
+        "December_H": 5149
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20388,
+              48.79047
+            ],
+            [
+              9.20415,
+              48.79047
+            ],
+            [
+              9.20415,
+              48.790729999999996
+            ],
+            [
+              9.20388,
+              48.790729999999996
+            ],
+            [
+              9.20388,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-036",
+        "Year_of_co": 1954,
+        "Heated_are": 329,
+        "Total_Year": 47527,
+        "January_He": 9030,
+        "February_H": 7129,
+        "March_Heat": 5703,
+        "April_Heat": 3327,
+        "May_Heatin": 951,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 475,
+        "October_He": 3802,
+        "November_H": 7604,
+        "December_H": 9505
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20435,
+              48.79047
+            ],
+            [
+              9.20462,
+              48.79047
+            ],
+            [
+              9.20462,
+              48.790729999999996
+            ],
+            [
+              9.20435,
+              48.790729999999996
+            ],
+            [
+              9.20435,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-037",
+        "Year_of_co": 1919,
+        "Heated_are": 95,
+        "Total_Year": 16890,
+        "January_He": 3209,
+        "February_H": 2534,
+        "March_Heat": 2027,
+        "April_Heat": 1182,
+        "May_Heatin": 338,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 169,
+        "October_He": 1351,
+        "November_H": 2702,
+        "December_H": 3378
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20482,
+              48.79047
+            ],
+            [
+              9.20509,
+              48.79047
+            ],
+            [
+              9.20509,
+              48.790729999999996
+            ],
+            [
+              9.20482,
+              48.790729999999996
+            ],
+            [
+              9.20482,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-038",
+        "Year_of_co": 1958,
+        "Heated_are": 364,
+        "Total_Year": 48110,
+        "January_He": 9141,
+        "February_H": 7216,
+        "March_Heat": 5773,
+        "April_Heat": 3368,
+        "May_Heatin": 962,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 481,
+        "October_He": 3849,
+        "November_H": 7698,
+        "December_H": 9622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20529,
+              48.79047
+            ],
+            [
+              9.20556,
+              48.79047
+            ],
+            [
+              9.20556,
+              48.790729999999996
+            ],
+            [
+              9.20529,
+              48.790729999999996
+            ],
+            [
+              9.20529,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-039",
+        "Year_of_co": 1918,
+        "Heated_are": 264,
+        "Total_Year": 43577,
+        "January_He": 8280,
+        "February_H": 6537,
+        "March_Heat": 5229,
+        "April_Heat": 3050,
+        "May_Heatin": 872,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 436,
+        "October_He": 3486,
+        "November_H": 6972,
+        "December_H": 8715
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20576,
+              48.79047
+            ],
+            [
+              9.20603,
+              48.79047
+            ],
+            [
+              9.20603,
+              48.790729999999996
+            ],
+            [
+              9.20576,
+              48.790729999999996
+            ],
+            [
+              9.20576,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-040",
+        "Year_of_co": 2006,
+        "Heated_are": 170,
+        "Total_Year": 7585,
+        "January_He": 1441,
+        "February_H": 1138,
+        "March_Heat": 910,
+        "April_Heat": 531,
+        "May_Heatin": 152,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 76,
+        "October_He": 607,
+        "November_H": 1214,
+        "December_H": 1517
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20623,
+              48.79047
+            ],
+            [
+              9.2065,
+              48.79047
+            ],
+            [
+              9.2065,
+              48.790729999999996
+            ],
+            [
+              9.20623,
+              48.790729999999996
+            ],
+            [
+              9.20623,
+              48.79047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-041",
+        "Year_of_co": 2018,
+        "Heated_are": 224,
+        "Total_Year": 12752,
+        "January_He": 2423,
+        "February_H": 1913,
+        "March_Heat": 1530,
+        "April_Heat": 893,
+        "May_Heatin": 255,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 128,
+        "October_He": 1020,
+        "November_H": 2040,
+        "December_H": 2550
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.202,
+              48.79096
+            ],
+            [
+              9.20227,
+              48.79096
+            ],
+            [
+              9.20227,
+              48.791219999999996
+            ],
+            [
+              9.202,
+              48.791219999999996
+            ],
+            [
+              9.202,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-042",
+        "Year_of_co": 1917,
+        "Heated_are": 349,
+        "Total_Year": 65294,
+        "January_He": 12406,
+        "February_H": 9794,
+        "March_Heat": 7835,
+        "April_Heat": 4571,
+        "May_Heatin": 1306,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 653,
+        "October_He": 5224,
+        "November_H": 10447,
+        "December_H": 13059
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20247,
+              48.79096
+            ],
+            [
+              9.20274,
+              48.79096
+            ],
+            [
+              9.20274,
+              48.791219999999996
+            ],
+            [
+              9.20247,
+              48.791219999999996
+            ],
+            [
+              9.20247,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-043",
+        "Year_of_co": 2019,
+        "Heated_are": 242,
+        "Total_Year": 12142,
+        "January_He": 2307,
+        "February_H": 1821,
+        "March_Heat": 1457,
+        "April_Heat": 850,
+        "May_Heatin": 243,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 121,
+        "October_He": 971,
+        "November_H": 1943,
+        "December_H": 2428
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20294,
+              48.79096
+            ],
+            [
+              9.20321,
+              48.79096
+            ],
+            [
+              9.20321,
+              48.791219999999996
+            ],
+            [
+              9.20294,
+              48.791219999999996
+            ],
+            [
+              9.20294,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-044",
+        "Year_of_co": 1985,
+        "Heated_are": 168,
+        "Total_Year": 16498,
+        "January_He": 3135,
+        "February_H": 2475,
+        "March_Heat": 1980,
+        "April_Heat": 1155,
+        "May_Heatin": 330,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 165,
+        "October_He": 1320,
+        "November_H": 2640,
+        "December_H": 3300
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20341,
+              48.79096
+            ],
+            [
+              9.20368,
+              48.79096
+            ],
+            [
+              9.20368,
+              48.791219999999996
+            ],
+            [
+              9.20341,
+              48.791219999999996
+            ],
+            [
+              9.20341,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-045",
+        "Year_of_co": 1890,
+        "Heated_are": 366,
+        "Total_Year": 77249,
+        "January_He": 14677,
+        "February_H": 11587,
+        "March_Heat": 9270,
+        "April_Heat": 5407,
+        "May_Heatin": 1545,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 772,
+        "October_He": 6180,
+        "November_H": 12360,
+        "December_H": 15450
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20388,
+              48.79096
+            ],
+            [
+              9.20415,
+              48.79096
+            ],
+            [
+              9.20415,
+              48.791219999999996
+            ],
+            [
+              9.20388,
+              48.791219999999996
+            ],
+            [
+              9.20388,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-046",
+        "Year_of_co": 1894,
+        "Heated_are": 340,
+        "Total_Year": 64099,
+        "January_He": 12179,
+        "February_H": 9615,
+        "March_Heat": 7692,
+        "April_Heat": 4487,
+        "May_Heatin": 1282,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 641,
+        "October_He": 5128,
+        "November_H": 10256,
+        "December_H": 12820
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20435,
+              48.79096
+            ],
+            [
+              9.20462,
+              48.79096
+            ],
+            [
+              9.20462,
+              48.791219999999996
+            ],
+            [
+              9.20435,
+              48.791219999999996
+            ],
+            [
+              9.20435,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-047",
+        "Year_of_co": 1968,
+        "Heated_are": 275,
+        "Total_Year": 27671,
+        "January_He": 5257,
+        "February_H": 4151,
+        "March_Heat": 3321,
+        "April_Heat": 1937,
+        "May_Heatin": 553,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 277,
+        "October_He": 2214,
+        "November_H": 4427,
+        "December_H": 5534
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20482,
+              48.79096
+            ],
+            [
+              9.20509,
+              48.79096
+            ],
+            [
+              9.20509,
+              48.791219999999996
+            ],
+            [
+              9.20482,
+              48.791219999999996
+            ],
+            [
+              9.20482,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-048",
+        "Year_of_co": 1910,
+        "Heated_are": 213,
+        "Total_Year": 35695,
+        "January_He": 6782,
+        "February_H": 5354,
+        "March_Heat": 4283,
+        "April_Heat": 2499,
+        "May_Heatin": 714,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 357,
+        "October_He": 2856,
+        "November_H": 5711,
+        "December_H": 7139
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20529,
+              48.79096
+            ],
+            [
+              9.20556,
+              48.79096
+            ],
+            [
+              9.20556,
+              48.791219999999996
+            ],
+            [
+              9.20529,
+              48.791219999999996
+            ],
+            [
+              9.20529,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-049",
+        "Year_of_co": 1907,
+        "Heated_are": 338,
+        "Total_Year": 68769,
+        "January_He": 13066,
+        "February_H": 10315,
+        "March_Heat": 8252,
+        "April_Heat": 4814,
+        "May_Heatin": 1375,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 688,
+        "October_He": 5502,
+        "November_H": 11003,
+        "December_H": 13754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20576,
+              48.79096
+            ],
+            [
+              9.20603,
+              48.79096
+            ],
+            [
+              9.20603,
+              48.791219999999996
+            ],
+            [
+              9.20576,
+              48.791219999999996
+            ],
+            [
+              9.20576,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-050",
+        "Year_of_co": 1922,
+        "Heated_are": 362,
+        "Total_Year": 55792,
+        "January_He": 10600,
+        "February_H": 8369,
+        "March_Heat": 6695,
+        "April_Heat": 3905,
+        "May_Heatin": 1116,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 558,
+        "October_He": 4463,
+        "November_H": 8927,
+        "December_H": 11158
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20623,
+              48.79096
+            ],
+            [
+              9.2065,
+              48.79096
+            ],
+            [
+              9.2065,
+              48.791219999999996
+            ],
+            [
+              9.20623,
+              48.791219999999996
+            ],
+            [
+              9.20623,
+              48.79096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-051",
+        "Year_of_co": 1932,
+        "Heated_are": 333,
+        "Total_Year": 48798,
+        "January_He": 9272,
+        "February_H": 7320,
+        "March_Heat": 5856,
+        "April_Heat": 3416,
+        "May_Heatin": 976,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 488,
+        "October_He": 3904,
+        "November_H": 7808,
+        "December_H": 9760
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.202,
+              48.791450000000005
+            ],
+            [
+              9.20227,
+              48.791450000000005
+            ],
+            [
+              9.20227,
+              48.79171
+            ],
+            [
+              9.202,
+              48.79171
+            ],
+            [
+              9.202,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-052",
+        "Year_of_co": 1944,
+        "Heated_are": 306,
+        "Total_Year": 47565,
+        "January_He": 9037,
+        "February_H": 7135,
+        "March_Heat": 5708,
+        "April_Heat": 3330,
+        "May_Heatin": 951,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 476,
+        "October_He": 3805,
+        "November_H": 7610,
+        "December_H": 9513
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20247,
+              48.791450000000005
+            ],
+            [
+              9.20274,
+              48.791450000000005
+            ],
+            [
+              9.20274,
+              48.79171
+            ],
+            [
+              9.20247,
+              48.79171
+            ],
+            [
+              9.20247,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-053",
+        "Year_of_co": 1969,
+        "Heated_are": 192,
+        "Total_Year": 20182,
+        "January_He": 3835,
+        "February_H": 3027,
+        "March_Heat": 2422,
+        "April_Heat": 1413,
+        "May_Heatin": 404,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 202,
+        "October_He": 1615,
+        "November_H": 3229,
+        "December_H": 4036
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20294,
+              48.791450000000005
+            ],
+            [
+              9.20321,
+              48.791450000000005
+            ],
+            [
+              9.20321,
+              48.79171
+            ],
+            [
+              9.20294,
+              48.79171
+            ],
+            [
+              9.20294,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-054",
+        "Year_of_co": 2002,
+        "Heated_are": 281,
+        "Total_Year": 23010,
+        "January_He": 4372,
+        "February_H": 3452,
+        "March_Heat": 2761,
+        "April_Heat": 1611,
+        "May_Heatin": 460,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 230,
+        "October_He": 1841,
+        "November_H": 3682,
+        "December_H": 4602
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20341,
+              48.791450000000005
+            ],
+            [
+              9.20368,
+              48.791450000000005
+            ],
+            [
+              9.20368,
+              48.79171
+            ],
+            [
+              9.20341,
+              48.79171
+            ],
+            [
+              9.20341,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-055",
+        "Year_of_co": 1920,
+        "Heated_are": 321,
+        "Total_Year": 51657,
+        "January_He": 9815,
+        "February_H": 7749,
+        "March_Heat": 6199,
+        "April_Heat": 3616,
+        "May_Heatin": 1033,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 517,
+        "October_He": 4133,
+        "November_H": 8265,
+        "December_H": 10331
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20388,
+              48.791450000000005
+            ],
+            [
+              9.20415,
+              48.791450000000005
+            ],
+            [
+              9.20415,
+              48.79171
+            ],
+            [
+              9.20388,
+              48.79171
+            ],
+            [
+              9.20388,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-056",
+        "Year_of_co": 1976,
+        "Heated_are": 122,
+        "Total_Year": 10096,
+        "January_He": 1918,
+        "February_H": 1514,
+        "March_Heat": 1212,
+        "April_Heat": 707,
+        "May_Heatin": 202,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 101,
+        "October_He": 808,
+        "November_H": 1615,
+        "December_H": 2019
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20435,
+              48.791450000000005
+            ],
+            [
+              9.20462,
+              48.791450000000005
+            ],
+            [
+              9.20462,
+              48.79171
+            ],
+            [
+              9.20435,
+              48.79171
+            ],
+            [
+              9.20435,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-057",
+        "Year_of_co": 1948,
+        "Heated_are": 373,
+        "Total_Year": 51543,
+        "January_He": 9793,
+        "February_H": 7731,
+        "March_Heat": 6185,
+        "April_Heat": 3608,
+        "May_Heatin": 1031,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 515,
+        "October_He": 4123,
+        "November_H": 8247,
+        "December_H": 10309
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20482,
+              48.791450000000005
+            ],
+            [
+              9.20509,
+              48.791450000000005
+            ],
+            [
+              9.20509,
+              48.79171
+            ],
+            [
+              9.20482,
+              48.79171
+            ],
+            [
+              9.20482,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-058",
+        "Year_of_co": 1908,
+        "Heated_are": 93,
+        "Total_Year": 17901,
+        "January_He": 3401,
+        "February_H": 2685,
+        "March_Heat": 2148,
+        "April_Heat": 1253,
+        "May_Heatin": 358,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 179,
+        "October_He": 1432,
+        "November_H": 2864,
+        "December_H": 3580
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20529,
+              48.791450000000005
+            ],
+            [
+              9.20556,
+              48.791450000000005
+            ],
+            [
+              9.20556,
+              48.79171
+            ],
+            [
+              9.20529,
+              48.79171
+            ],
+            [
+              9.20529,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-059",
+        "Year_of_co": 1948,
+        "Heated_are": 120,
+        "Total_Year": 14331,
+        "January_He": 2723,
+        "February_H": 2150,
+        "March_Heat": 1720,
+        "April_Heat": 1003,
+        "May_Heatin": 287,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 143,
+        "October_He": 1146,
+        "November_H": 2293,
+        "December_H": 2866
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20576,
+              48.791450000000005
+            ],
+            [
+              9.20603,
+              48.791450000000005
+            ],
+            [
+              9.20603,
+              48.79171
+            ],
+            [
+              9.20576,
+              48.79171
+            ],
+            [
+              9.20576,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "DEMO-060",
+        "Year_of_co": 1974,
+        "Heated_are": 106,
+        "Total_Year": 9227,
+        "January_He": 1753,
+        "February_H": 1384,
+        "March_Heat": 1107,
+        "April_Heat": 646,
+        "May_Heatin": 185,
+        "June_Heati": 0,
+        "July_Heati": 0,
+        "August_Hea": 0,
+        "September_": 92,
+        "October_He": 738,
+        "November_H": 1476,
+        "December_H": 1845
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.20623,
+              48.791450000000005
+            ],
+            [
+              9.2065,
+              48.791450000000005
+            ],
+            [
+              9.2065,
+              48.79171
+            ],
+            [
+              9.20623,
+              48.79171
+            ],
+            [
+              9.20623,
+              48.791450000000005
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
